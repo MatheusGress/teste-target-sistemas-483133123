@@ -1,7 +1,4 @@
-﻿using System;
-using System.Formats.Asn1;
-
-class Program
+﻿class Program
 {
     static void Main()
     {
