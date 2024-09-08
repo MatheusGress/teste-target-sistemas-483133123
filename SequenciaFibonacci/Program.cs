@@ -33,9 +33,13 @@
                 Console.WriteLine($"\nO número {number} não pertence à sequência Fibonacci");
             }
         }
-        catch (Exception e)
+        catch (FormatException)
         {
-            Console.WriteLine($"Error: {e.Message}");
+            Console.WriteLine("Erro: O valor inserido não é um número válido.");
+        }
+        catch (ArgumentNullException e)
+        {
+            Console.WriteLine($"Erro: {e.Message}");
         }
     }
 }
