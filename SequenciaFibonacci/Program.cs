@@ -12,7 +12,7 @@
         try
         {
             Console.WriteLine("Digite o valor que deseja verificar na lista:");
-            string? input = Console.ReadLine() ?? throw new ArgumentNullException();
+            string? input = Console.ReadLine() ?? throw new ArgumentNullException("O valor de entrada não pode ser nulo.");
 
             int number = int.Parse(input);
             
