@@ -8,7 +8,7 @@
 
     static void Main()
     {
-        // Verifica se o valor recebido mão é null
+        // Verifica se o valor recebido não é null
         try
         {
             Console.WriteLine("Digite o valor que deseja verificar na lista:");
