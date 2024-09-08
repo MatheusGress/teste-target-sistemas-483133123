@@ -1,7 +1,4 @@
-﻿using System;
-using System.Runtime.Intrinsics.Arm;
-
-class Program
+﻿class Program
 {
     static bool IsPerfectSquare(int x)
     {
