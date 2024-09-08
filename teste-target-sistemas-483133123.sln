@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenciaFibonacci", "SequenciaFibonacci\SequenciaFibonacci.csproj", "{6D1B8D7F-3201-45AF-BD77-866E8369F1F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerficaLetra", "VerificaLetra\VerficaLetra.csproj", "{CEE9EDEA-9582-485C-BBB2-3654363FEA8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificaLetra", "VerificaLetra\VerificaLetra.csproj", "{3E8FC488-D9F0-4EC5-B131-F7DE5B3D8BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,10 @@ Global
 		{CEE9EDEA-9582-485C-BBB2-3654363FEA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE9EDEA-9582-485C-BBB2-3654363FEA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE9EDEA-9582-485C-BBB2-3654363FEA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8FC488-D9F0-4EC5-B131-F7DE5B3D8BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8FC488-D9F0-4EC5-B131-F7DE5B3D8BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8FC488-D9F0-4EC5-B131-F7DE5B3D8BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8FC488-D9F0-4EC5-B131-F7DE5B3D8BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
