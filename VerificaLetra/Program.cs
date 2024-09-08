@@ -17,19 +17,16 @@
 
         } while (string.IsNullOrWhiteSpace(input));
 
-        int lowercaseACount = 0;
-        int uppercaseACount = 0;
+        // Converte a entrada para maiúsculas
+        input = input.ToUpper();
 
-        // Loop para verificar cada caractere
+        int countA = 0;
+
         foreach (char c in input)
         {
-            if (c == 'a')
+            if (c == 'A')
             {
-                lowercaseACount++;
-            }
-            else if (c == 'A')
-            {
-                uppercaseACount++;
+                countA++;
             }
         }
 
