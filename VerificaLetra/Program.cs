@@ -30,15 +30,11 @@
             }
         }
 
-        int totalACount = lowercaseACount + uppercaseACount;
-        
-        if (totalACount > 0)
-        {
-            Console.WriteLine($"\nA letra 'A' foi encontrada {totalACount} vez(es).");
-        }
-        else
-        {
-            Console.WriteLine("\nA letra 'A' não foi encontrada na palavra.");
-        }
+        // Operação ternária para determinar "vez" ou "vezes"
+        string resultado = countA > 0 
+            ? $"\nA letra 'A' foi encontrada {countA} {(countA == 1 ? "vez" : "vezes")}." 
+            : "\nA letra 'A' não foi encontrada na palavra.";
+
+        Console.WriteLine(resultado);
     }
-}}
+}
