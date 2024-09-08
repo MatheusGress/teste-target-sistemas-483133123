@@ -14,9 +14,13 @@
             Console.WriteLine("Digite o valor que deseja verificar na lista:");
             string? input = Console.ReadLine() ?? throw new ArgumentNullException("O valor de entrada não pode ser nulo.");
 
-            int number = int.Parse(input);
-            
-        // Verifica se o valor é uma raiz exata
+            if (!int.TryParse(input, out int number))
+            {
+                Console.WriteLine("Entrada inválida. Por favor, insira um número inteiro.");
+                return;
+            }
+
+            // Verifica se o valor é uma raiz exata
             int sumCheck = 5 * number * number + 4;
             int subCheck = 5 * number * number - 4;
 
