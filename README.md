@@ -25,6 +25,8 @@ enquanto K < INDICE faça {
 
 imprimir(SOMA);
 
+Ao final do processamento, qual será o valor da variável **SOMA**?
+
 ## 4) Descubra a lógica e complete o próximo elemento:
 
 **a)** 1, 3, 5, 7, ___
