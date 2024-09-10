@@ -33,13 +33,15 @@
                 }
             }
 
-            // Operação ternária para determinar "vez" ou "vezes"
-            string resultado = countA > 0
-                ? $"\nA letra 'A' foi encontrada {countA} {(countA == 1 ? "vez" : "vezes")}."
+            // Define a frase conforme a quantidade
+            string countLabel = countA == 1 ? "vez" : "vezes";
+            
+            // Determina o resultado com base na contagem de 'A'
+            string result = countA > 0
+                ? $"\nA letra 'A' foi encontrada {countA} {countLabel}."
                 : "\nA letra 'A' não foi encontrada na palavra.";
 
-            Console.WriteLine(resultado);
+            Console.WriteLine(result);
         }
     }
 }
-
