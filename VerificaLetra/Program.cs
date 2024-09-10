@@ -5,13 +5,13 @@
         static void Main()
         {
             string? input;
-
-            // Verifica se a entrada não é vazia
+            
             do
             {
                 Console.Write("Digite a palavra que deseja verificar: ");
                 input = Console.ReadLine();
 
+                // Verifica se a entrada é nula ou apenas espaços em branco
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     Console.WriteLine("A entrada não pode ser vazia. Por favor, tente novamente.");
@@ -24,6 +24,7 @@
 
             int countA = 0;
 
+            // Conta o número de ocorrências da letra 'A'
             foreach (char c in input)
             {
                 if (c == 'A')
