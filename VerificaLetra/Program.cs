@@ -1,6 +1,6 @@
 ﻿namespace VerificaLetra
 {
-    class Program
+    static class Program
     {
         static void Main()
         {
